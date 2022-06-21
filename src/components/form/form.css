@@ -1,0 +1,67 @@
+.error_list {
+    font: bold 3em/2em Arial, sans-serif;
+    color: #ff0000;
+    text-shadow: 0 0 20px #ff0000;
+    font-size: 14px;
+    margin-left: -70px;
+    margin-top: 10px;
+   font-style: italic;
+}
+
+.value {
+    width: 240px;
+    height: 25px;
+    border-radius: 3px;
+    border:red 1px solid;
+    box-shadow: 0 0 5px red;
+    -webkit-box-shadow: 0 0 5px red;
+    -moz-box-shadow: 0 0 5px red
+}
+
+.norm_value {
+    width: 240px;
+    height: 25px;
+    border-radius: 3px;
+}
+.button_input {
+    height: 29px;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+  
+}
+
+.button_input_error {
+    height: 29px;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    opacity: 0.5;
+    cursor: no-drop;
+
+}
+
+.text_list_conteyner {
+    position: absolute;
+    top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    box-sizing: border-box;
+  
+}
+.list_tags {
+    margin: 10px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+ border-radius: 30px;
+}
+
+.delete_x {
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-left: 20px;
+}
